@@ -18,5 +18,5 @@ promise(arr,3000).then((res)=>{
 }).then((res)=>{
   console.log(res);
 	const op = document.getElementById("output");
-	op.innerText=res.join(" ");
+	op.innerText=res;
 });
